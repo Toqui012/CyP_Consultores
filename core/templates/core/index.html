@@ -1,0 +1,45 @@
+
+
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+        <div class="content-wrapper"> 
+            <img src="{% static 'core/assets/imagen 1.png' %}" class="img-fluid" alt="imagenLogoCentral">
+                <div class="text-wrapper container-fluid">
+                    <blockquote class="container">"Brindamos asesorías integrales y un amplio portafolio de servicios, gestionando soluciones a nuestros clientes y  cumpliendo las obligaciones legales y tributarias actuales".</blockquote>
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btnContactNow position-absolute container">Llámanos</button>
+                    </div>
+                </div>
+        </div>
+    
+        <div class="wrapper-card">
+                <div class="container-card">
+
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-shield" aria-hidden="true"></i></div>
+                        <div class="content-card">
+                            <p>Asesoría personalizada para tu empresa</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
+                        <div class="content-card">
+                            <p>Estamos capacitados para prestar apoyo en todo momento, bajo cualquier circunstancia y dificultad. Con nuestras asesorías, podrás llevar tu negocio sin problemas y asegurar un crecimiento sostenido en el tiempo</p>
+                        </div>
+                    </div>
+
+
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+                        <div class="content-card">
+                            <p>Mantenemos tus obligaciones tributarias al día y en orden</p>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+
+{% endblock %}
+        

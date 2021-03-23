@@ -1,0 +1,91 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="col text-center m-2">
+        <h5 class="display-6 text-center header-services">Servicios</h5>
+    </div>
+               
+    
+
+    <div class="row" style="overflow-x: hidden !important;">
+        <div class="col-sm-12 col-md-6 card text-white pb-4 container rounded p-4 list-asesory">
+            <h2>Asesorías contables y tributarias</h2>
+            <div class="list-group text-justify">
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Constitución de sociedades</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Inicio de actividades</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Trámites de patente municipal</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Implementación factura electrónica con certificado digital</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Implementación de boleta electrónica más impresora fiscal</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Confección de registros contables mensuales según régimen tributario</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Declaración de formulario 29 y 50</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Declaraciones juradas anuales</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Declaración de renta anual empresa/socios Formulario 22</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Trámites ante el servicio de Impuestos Internos</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Confección de balance general con la frecuencia a elegir por el cliente</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Término de giro</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Gestión tributaria</li>
+            </div>
+        </div>
+    
+        <div class="col-sm-12 col-md-6 card text-white container rounded p-4 list-recurses">
+            <h2 class="">Recursos Humanos</h2>
+            <div class="list-group text-justify">
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Confección de contratos laborales y finiquitos </li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Elaboración de liquidaciones de sueldo</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Pago y presentación cotizaciones previsionales</li>
+                <li class="list-group-item list-group-item-action disabled"><i class="fa fa-check" aria-hidden="true"></i> Trámite de licencias médicas</li>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <div class="row justify-content-md-center ">
+                <div class="col-md-4">
+                    <img class="img-fluid logo-bottom p-4" src="{% static 'core/assets/85bf48c8-cfed-4b98-aec2-dec61a368fdb.png' %}" alt="imgLogo">
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+    <br>
+    
+    <div class="container">
+        <h5 class="display-6 text-center header-services">Auditorías</h5>
+        <div class="wrapper-card rounded">
+            <div class="container-card">
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-calculator" aria-hidden="true"></i></div>
+                    <div class="content-card">
+                        <h3>Auditorías financieras</h3>
+                        <p>Expresaremos una opinión profesional sobre los estados financieros de la empresa en cuanto a que muestre la situación financiera, los resultados de sus operaciones, los cambios en el patrimonio y los flujos de efectivo en conformidad con las Normas Internacionales de Contabilidad.</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-calculator" aria-hidden="true"></i></div>
+                    <div class="content-card">
+                        <h3>Auditorías Tributarias</h3>
+                        <p>Comprende el servicio de auditoria tributaria de la empresa, validando los procesos contables anuales conforme a los períodos tributarios declarados, sugiriendo modificaciones y realizando rectificaciones si el resultado de la auditoria así lo determina.          </p>
+                    </div>
+                </div>
+
+                <div class="box shadow-lg">
+                    <div class="icon"><i class="fa fa-calculator" aria-hidden="true"></i></div>
+                    <div class="content-card">
+                        <h3>Auditorías Internas</h3>
+                        <p>El objetivo del servicio radica en externalizar la función de auditoria interna de una empresa, con el fin de monitorear las labores de control de las áreas críticas del negocio.
+                            Externalizar el área de auditoría interna facilita una ayuda primordial a la dirección al evaluar de forma relativamente independiente los sistemas de organización y de administración.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <br>
+       
+{% endblock %}
