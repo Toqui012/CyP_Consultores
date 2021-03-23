@@ -1,0 +1,1 @@
+web: gunicorn cypconsultores.wsgi --log-file -

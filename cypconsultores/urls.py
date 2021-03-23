@@ -16,6 +16,8 @@ Including another URLconf
 from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
+from django.config import settings
+from django.config.urls.static import static
 
 urlpatterns = [
     path('', include('core.urls')),
@@ -23,7 +25,7 @@ urlpatterns = [
     path('services/', include('services.urls')),
     path('contact/',include('contact.urls')),
     path('admin/', admin.site.urls),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 if settings.DEBUG:
     from django.conf.urls.static import static
