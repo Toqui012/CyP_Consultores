@@ -30,4 +30,4 @@ def contact(request):
 
         sendMail(mail)
 
-    return render(request,"core/contact.html", {})
+    return render(request,"contact.html", {})
