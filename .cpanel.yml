@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cypconsu/repositories/CyP_Consultores
+    - /bin/cp index.html repositories/CyP_Consultores/templates
+    - /bin/cp style.css repositories/CyP_Consultores/static
